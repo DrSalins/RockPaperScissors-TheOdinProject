@@ -3,9 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Rock Paper Scissors</title>
   </head>
   <body>
+    <div class="container">
+      <div class="navBar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#game">Play Game</a></li>
+        </ul>
+      </div>
+      <div class="headingContainer" id="home">
+        <h1>Rock,Paper,Scissors</h1>
+        <p>An Interactive Website To Play Rock, Paper, Scissors</p>
+      </div>
+    </div>
+    <div class="aboutContainer" id="about">
+      <h1>About This Page</h1>
+      <p>
+        A webpage that utilizes HTML, CSS and Javascript that allows you to play
+        the classic game of Rock, Paper, Scissors.<br />It's the 🖥️ vs 🧑. Your
+        score will also be logged. It's 5 rounds of Rock, Paper, Scissors! All
+        The Best!
+      </p>
+      <div class="rpsChoices">
+        <div class="Rock">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Peridotite_5773.jpg"
+            alt="Image Of A Rock"
+          />
+          <p>Rock</p>
+        </div>
+        <div class="Paper">
+          <img
+            src="https://images.pexels.com/photos/19868716/pexels-photo-19868716/free-photo-of-crumpled-paper-background.jpeg"
+            alt="Image Of A Piece Of Paper"
+          />
+          <p>Paper</p>
+        </div>
+        <div class="Scissors">
+          <img
+            src="https://freesvg.org/img/scizors.png"
+            alt="Image Of A Scissor"
+          />
+          <p>Scissors</p>
+        </div>
+      </div>
+      <div class="PlayGameSection">
+        <div class="scoreBoardContainer">
+          <div class="computerScore">
+            <p>Computer's Score:</p>
+            <p class="compuScore">0</p>
+          </div>
+          <div class="playerScore">
+            <p>Player's Score:</p>
+            <p class="plyrScore">0</p>
+          </div>
+          <button class="PlayRoundBtn">Play Round</button>
+        </div>
+      </div>
+    </div>
     <script src="./app.js"></script>
   </body>
 </html>
