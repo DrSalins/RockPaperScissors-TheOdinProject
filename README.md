@@ -1,25 +1,18 @@
 # Rock, Paper, Scissors Game
 
-This is a simple Rock, Paper, Scissors game built as the first project in The Odin Project
- curriculum. It focuses on basic JavaScript logic, user interaction, and score tracking through console logs and prompts.
+A simple, interactive Rock, Paper, Scissors game built with HTML, CSS, and JavaScript. This project focuses on implementing game logic, score tracking, and basic DOM manipulation.
 
-Features
+## Highlights
 
-- Play a 5-round game against the computer
-- Score tracking: keeps count of player and computer wins
-- User input via prompt to choose rock, paper, or scissors
-- Console feedback on each round and final game result
+- Play a 5-round game against a computer opponent
+- Track and display player and computer scores
+- User interacts via prompt input
+- Console feedback shows round results and final winner
 
-Tech Stack
 
-- HTML for the interface (button and score display)
-- JavaScript for game logic, event handling, and score updates
-- DOM manipulation to update scores in real-time
-
-Key Learnings
-
-- Implemented core game logic with conditional statements
-- Used randomization for computer moves
-- Practiced looping through multiple rounds of a game
-- Learned to interact with the DOM by updating scores
-- Gained experience with event-driven programming by triggering the game through a button
+## Tech Skills Demonstrated
+- Conditional logic for game rules
+- Randomization for computer moves
+- Loops to iterate through multiple game rounds
+- Event-driven programming with button clicks
+- Updating the DOM dynamically to reflect scores
